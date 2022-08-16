@@ -1,0 +1,161 @@
+{
+  "basic_info": {
+    "description_header": "Welcome!",
+    "description": "Hello! My name is Roger Reyes and I am a software developer. Prior to this I was enlisted in the US Army for 7 years and I worked in Satellite Communications. A majority of that time was spent in Okinawa, Japan where I worked on large scale operations supporting all branches across the Pacific. In Okinawa I also served as the Vice President of Better Opportunities where we led community events to strengthen our bonds with Japanese locals and improved team morale and cohesion. After finishing my contract with the military I decided to pursue software development starting in college which later transitioned to attending the Java development course at Code Fellows. As I progress in my career I look forward to working on new and challenging ideas, delving deeper and deeper into the vast coding world!",
+    "section_names": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "DoinWondrs - BetterMe",
+      "startDate": "2022",
+      "description": [
+        "Full stack Android app that allows the user to create an account in order to track health information and aids the user in improving their personal health",
+        "Utilizes multiple Amazon Web Services through AWS Amplify such as DynamoDB, Cognito, and S3."
+      ],
+      "images": [
+        "public/Imgs/betterMe1.png",
+        "public/Imgs/betterMe2.png"
+      ],
+      "url": "https://github.com/TeamWondrs/betterMe",
+      "technologies": [
+        {
+          "class": "devicon-java-plain-wordmark",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-androidstudio-plain-wordmark",
+          "name": "Android Studio"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "Amazon Web Services"
+        }
+      ]
+    },
+    {
+      "title": "StackFellows",
+      "startDate": "2022",
+      "description": [
+        "Web App built on SpringMVC and Thymeleaf. Fully functional and scalable utilizing PostgreSQL database.",
+        "Full stack web application that allows users to post questions, write answers and provide support to other users, and allow supporting answers to other users posts."
+      ],
+      "images": [
+        "public/Imgs/stackFellows1.png",
+        "public/Imgs/stackFellows2.png",
+        "public/Imgs/stackFellows3.png"
+      ],
+      "url": "https://github.com/javahaus",
+      "technologies": [
+        {
+          "class": "devicon-gradle-plain-wordmark",
+          "name": "Gradle"
+        },
+        {
+          "class": "devicon-spring-plain-wordmark",
+          "name": "SpringMVC"
+        },
+        {
+          "class": "devicon-java-plain-wordmark",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-html5-plain-wordmark",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain-wordmark",
+          "name": "CSS3"
+        }
+      ]
+    },
+    {
+      "title": "Foodies",
+      "startDate": "2022",
+      "description": [
+        "Web App that utilizes multiple API’s to populate restaurant information. Fully operational CRUD operations with Auth0 integration.",
+        "Group project that shows competencies in planning and managing a multi-layered project with multiple members."
+      ],
+      "images": [
+        "public/Imgs/foodies1.png",
+        "public/Imgs/foodies2.png"
+      ],
+      "url": "https://github.com/TEAM-R-A-M",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Code Fellows",
+      "title": "Student",
+      "years": "02.2022 - 07.2022",
+      "icon": "fab fa-font-awesome experience-icon",
+      "mainTech": [
+        "Software Development"
+      ],
+      "technologies": [
+        "Java",
+        "IntelliJ",
+        "SpringMVC",
+        "Thymeleaf",
+        "Amazon Web Services",
+        "PostgresQL",
+        "GraphQL",
+        "Android Studio",
+        "VSCode",
+        "MongoDB",
+        "Netlify",
+        "Heroku",
+        "Auth0",
+        "JavaScript",
+        "Bootstrap",
+        "React",
+        "React Bootstrap"
+      ]
+    },
+    {
+      "company": "US Army",
+      "title": "Vice President of Better Opportunities for Single Soldiers",
+      "years": "10.2014 - 02.2021",
+      "icon": "fab fa-font-awesome experience-icon",
+      "mainTech": [
+        "Recreation"
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "company": "US Army",
+      "title": "Satellite Communications Technician",
+      "years": "10.2014 - 02.2021",
+      "icon": "fab fa-font-awesome experience-icon",
+      "mainTech": [
+        "Telecommunications"
+      ],
+      "technologies": [
+        "SHF",
+        "EHF",
+        "AEHF",
+        "IDirect",
+        "Linkway"
+      ]
+    }
+  ]
+}
